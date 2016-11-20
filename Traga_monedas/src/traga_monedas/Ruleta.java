@@ -28,6 +28,7 @@ public class Ruleta {
                     Aux.sig = nodo_n;
                     nodo_n.ant = Aux;
                     nodo_n.sig = Ruleta;
+                    Ruleta.ant = nodo_n;
                     Aux=Aux.sig;
                 }
             }

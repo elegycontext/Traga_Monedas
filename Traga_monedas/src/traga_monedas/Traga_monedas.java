@@ -1,21 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package traga_monedas;
 
-/**
- *
- * @author symq9485
- */
+import java.io.*;
+
 public class Traga_monedas {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
+        
+        
+        Ruleta Ruleta1 = new Ruleta();
+        Ruleta Ruleta2 = new Ruleta();
+        Ruleta Ruleta3 = new Ruleta();
+        
+        Ruleta1.Crear();
+        Ruleta2.Crear();
+        Ruleta3.Crear();
+        
+        Ruleta1.Girar();
     }
-    
 }
